@@ -1,0 +1,33 @@
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#cabecera {
+    background-color: rgb(239, 239, 34);
+    padding: 10px;
+}
+
+#fila {
+    display: flex;
+    flex: 1;
+}
+
+#menu {
+    width: 200px;
+    background-color: rgb(25, 214, 154);
+    padding: 10px;
+    display: none; /* Oculta el menú */
+}
+
+#contenido {
+    flex: 1;
+    background-color: rgb(225, 34, 197);
+    padding: 10px;
+}
+
+#pie {
+    background-color: rgb(244, 225, 10);
+    padding: 10px;
+}
