@@ -1,0 +1,14 @@
+@import url(styleCabecera.css);
+@import url(styleBarraLateral.css);
+@import url(styleArticuloPrincipal.css);
+@import url(style.PiedePagina.css);
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
